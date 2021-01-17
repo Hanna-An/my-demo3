@@ -1,0 +1,147 @@
+* {
+    font-family: "Lato", sans-serif;
+    color: black;
+  }
+  body {
+    margin: 0;
+  }
+  @media screen and (color) { 
+    body { background: #eeeeee; }
+  }
+  .header {
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+    top: 0;
+    background-color: #eeeeee;
+  }
+  .header-img {
+    max-width: 300px;
+  }
+  .nav-link {
+    margin-right: 100px;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    font-size: 16px;
+  }
+  li {
+    display: inline;
+  }
+  .title {
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+    margin: 100px 0 0;
+  }
+  .form {
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .email {
+    margin-bottom: 18px;
+    height: 25px;
+    width: 280px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  .submit {
+    background-color: #f1c40f;
+    height: 30px;
+    width: 160px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .feature-container{
+    margin: 0 auto 50px;
+    display: flex; 
+    align-items: center;
+    width: 65%;
+  }
+  .icon {
+    margin-right: 80px;
+    font-size: 60px;
+  }
+  .advantages-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+  }
+  .advantages-description {
+    margin: 0;
+  }
+  .how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .video {
+    height: 315px;
+    width: 560px;
+  }
+  .pricing {
+    margin: 60px auto;
+    display: flex;
+    height: 335px;
+    width: 70%;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  .product-item {
+    margin-bottom: 6px;
+  }
+  .select {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 16px;
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+  }
+  .level {
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    background-color: #ddd;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: bold;
+  }
+  footer {
+    margin: auto;
+    width: 69%;
+    text-align: right;
+    padding: 20px 20px;
+    background-color: #dddddd;
+  }
+  .copyright {
+    font-size: 14px;
+    color: #444;
+  }
+  .footer-links {
+    margin: 0 0 3px 0;
+  }
+  
+  
